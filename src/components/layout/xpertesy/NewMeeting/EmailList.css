@@ -1,0 +1,39 @@
+.emailList-container {
+   width: 50%;
+   border: 1px solid #ced4da;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: flex-end;
+   padding: 1rem 0;
+}
+.emailItem {
+   background-color: #ced4da;
+   border-radius: 1rem;
+   padding: 0.3rem 0.5rem;
+   margin: 0.3rem;
+}
+.deleteBtn {
+   display: inline-block;
+   width: 1.5rem;
+   height: 1.5rem;
+   background-color: #838586;
+   text-align: center;
+   border-radius: 50%;
+   margin-right: 0.5rem;
+   color: #ced4da;
+   font-weight: bold;
+   font-size: 0.8rem;
+   line-height: 1.5rem;
+   cursor: pointer;
+}
+.btnContainer {
+   display: flex;
+   justify-content: center;
+   margin: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+   .emailList-container {
+      width: 100%;
+   }
+}

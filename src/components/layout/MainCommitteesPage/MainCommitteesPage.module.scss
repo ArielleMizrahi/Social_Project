@@ -1,0 +1,28 @@
+.rootMainCommitteesPage {
+
+  .inputSearchWrapper{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+
+    svg{
+      vertical-align: initial;
+    }
+  }
+
+
+
+  h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .tableWrapper {
+    width: 50%;
+    margin: 0 auto;
+
+    @media screen and (max-width: 500px) {
+      width: 95%;
+    }
+  }
+}

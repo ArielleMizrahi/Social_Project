@@ -1,0 +1,87 @@
+.label {
+   line-height: 2rem;
+}
+.row-amount {
+   min-width: 3.5rem;
+}
+
+.input {
+   width: 100%;
+   padding: 0.375rem 0.75rem;
+   border-radius: 0.25rem;
+   border: 1px solid #ced4da;
+   color: #495057;
+   outline: none;
+   margin: 0;
+}
+
+.btn-container {
+   display: flex;
+   justify-content: flex-start;
+   padding: 0;
+   margin: 0;
+}
+.btn-container button {
+   margin-right: 3rem;
+   padding: 0 1.5rem;
+}
+
+.search {
+   padding-left: 5rem;
+}
+.search-icon {
+   height: 1.4rem;
+   position: absolute;
+   top: 0.5rem;
+   left: -3rem;
+}
+.meeting-table {
+   text-align: center;
+}
+.pagination {
+   display: flex;
+   justify-content: center;
+}
+@media only screen and (max-width: 768px) {
+   html,
+   body {
+      max-width: 100%;
+      overflow-x: hidden;
+   }
+   .rows {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin: 0 !important;
+   }
+   .hideOnMobile {
+      text-align: center;
+      display: none;
+   }
+   .range-input {
+      width: 100%;
+   }
+   .oneLine {
+      max-width: 100% !important;
+      flex: 1 !important;
+      padding: 0 !important;
+   }
+   .oneLine label {
+      max-width: 100% !important;
+   }
+   .section {
+      max-width: 100% !important;
+      margin-bottom: 1rem;
+      padding: 0 !important;
+   }
+   .section .col {
+      padding: 0;
+   }
+   .btn-container {
+      max-width: 100% !important;
+      justify-content: center;
+   }
+   .btn-container button {
+      margin: 0;
+   }
+}

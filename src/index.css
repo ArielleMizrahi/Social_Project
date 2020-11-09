@@ -1,0 +1,5 @@
+body {
+  background-image: url('../src/components/Background/background-bright.jpg');
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
